@@ -8,6 +8,7 @@
 #include <arpa/inet.h>
 #include <pthread.h>
 #include <errno.h>
+#include <sys/ioctl.h>
 
 /**
  * This C utility will forward Qualcomm Diag data over TCP to /dev/diag, running
